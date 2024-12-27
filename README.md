@@ -4,12 +4,12 @@ A simple TypeScript/JavaScript client library for interacting with the [Causalit
 
 ---
 
-## **Installation**
+## **Installation **
 
 Install the library via npm:
 
 ```bash
-npm install causality-client
+npm install causality-ts
 ```
 
 ## **Usage**
@@ -17,7 +17,7 @@ npm install causality-client
 Once imported into your project, you can use the client like so in a regular JS project
 
 ```js
-import CausalityClient from "causality-client";
+import CausalityClient from "causality-ts";
 
 
 function main() {
@@ -39,7 +39,7 @@ function main() {
 or in a TS project
 
 ```ts
-import CausalityClient, { RequestQrCodeResponse } from "causality-client";
+import CausalityClient, { RequestQrCodeResponse } from "causality-ts";
 
 async function main(): Promise<void> {
   const key: string = "YOUR_EXPERIENCE_KEY";
