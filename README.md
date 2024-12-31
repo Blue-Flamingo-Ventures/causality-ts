@@ -4,7 +4,7 @@ A simple TypeScript/JavaScript client library for interacting with the [Causalit
 
 ---
 
-## **Installation **
+## Installation
 
 Install the library via npm:
 
@@ -27,7 +27,7 @@ function main() {
   const client = new CausalityClient(key, token);
 
   try {
-    const response = await client.requestQrCode();
+    const response = await client.RequestQrCode();
     console.log("QR Code: ", response.qrcode);
     console.log("Deeplink: ", response.deeplink);
   } catch (error) {
@@ -48,7 +48,7 @@ async function main(): Promise<void> {
   const client = new CausalityClient(key, token);
 
   try {
-    const response: RequestQrCodeResponse = await client.requestQrCode();
+    const response: RequestQrCodeResponse = await client.RequestQrCode();
     console.log("QR Code: ", response?.qrcode);
     console.log("Deeplink: ", response?.deeplink);
   } catch (error) {
